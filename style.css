@@ -1,0 +1,182 @@
+*{
+margin: 0;
+padding: 0;
+}
+ 
+html {
+  position: relative;
+  min-height: 100%;
+}
+body{
+  overflow-x:hidden;
+  max-width: 100%;
+  margin:0;
+  margin-bottom: 150px;
+
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+
+#bg{
+  background-image: url(https://www.shutterstock.com/image-illustration/cryptocurrency-world-future-financial-currency-600nw-2157495541.jpg);
+  background-repeat: no-repeat;
+  min-height:600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
+  text-align: center;
+}
+#banner_content {
+  background-color: rgba(0, 0, 0, 0.7);
+  
+}
+.carousel-inner img {
+  width: 100%;
+  height:100%;
+}
+.footer{
+  position: absolute;
+  margin-top: 50px;
+  background-color: #141414;
+  min-height:150px;
+  padding-top:40px;
+  width: auto;
+ 
+  bottom: 0;
+  
+}
+.container  a {
+  color:black;
+}
+.container a:hover{
+  color:grey;
+  
+}
+#size{
+  max-height:200px;
+}
+.img-fluid{
+  max-width: 100%;
+  height: 50%;
+  margin-top: 20%;
+}
+
+body2{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.box{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f46404;
+  border-radius: 15px;
+}
+.box::before{
+  content: '';
+  position: absolute;
+  top:-2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+  background: #fff;
+}
+.box::after{
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -2;
+  filter: blur(40px);
+}
+.box::before,
+.box::after{
+  background: linear-gradient(22deg, #0a28ac,
+  #060c21, #00bcd4);
+}
+h1{
+  text-align: center;
+  color: rgb(158, 71, 9)
+}
+
+.text-input{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3298db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.35s;
+  font-size: 15px;
+}
+.text-input:focus{
+  width: 250px;
+  border-color: #19cde1;
+}
+.box input[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #19cde1;
+  padding: 14px 40px;
+  outline: none;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.35s;
+  cursor: pointer;
+  font-size: 15px;
+}
+.box input[type="submit"]:hover{
+  background: #19cde1;
+}
+
+button{
+  width: 200px;
+  padding: 15px;
+  margin: 20px 5px;
+  text-align: center;
+  border-radius: 25px;
+  color: black;
+  border: 2px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover{
+  background: #19cde1;
+  transition: 0.5s;
+}
+button:hover{
+  color: white;
+}
